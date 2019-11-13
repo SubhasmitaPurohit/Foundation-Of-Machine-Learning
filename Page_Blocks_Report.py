@@ -55,7 +55,11 @@ df.columns
 # ##### blackand:  Total number of black pixels in the bitmap of the block after the RLSA.
 # ##### wb_trans:  Number of white-black transitions in the original bitmap of the block.
 
-# # Step1: Perform initial EDA
+The problem consists in classifying all the blocks of the page layout of a document that has been detected by a segmentation process.
+This is an essential step in document analysis in order to separate text from graphic areas.
+Indeed, the five classes are: text (1), horizontal line (2), picture (3), vertical line (4) and graphic (5)
+
+#  Perform initial EDA
 
 # In[1]:
 
